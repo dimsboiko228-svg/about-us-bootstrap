@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us — Bootstrap 5</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body class="bg-body-tertiary">
+  <nav class="navbar navbar-expand-lg bg-white border-bottom">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">About Us</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Відкрити меню">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#about-us">Про нас</a></li>
+          <li class="nav-item"><a class="nav-link" href="#values">Наші цінності</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Контакти</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <section id="about-us" class="container my-5">
+      <div class="row align-items-center g-5">
+        <div class="col-lg-6">
+          <span class="badge text-bg-primary rounded-pill mb-3 px-3 py-2">Хто ми</span>
+          <h1 class="display-5 fw-bold mb-4">Створюємо цифрові рішення <span class="text-primary">разом</span></h1>
+          <p class="lead text-secondary">Ми — команда людей, які вірять, що хороші ідеї можуть змінювати світ на краще.</p>
+          <p class="text-body-secondary">Наша мета — робити корисні, зрозумілі та доступні цифрові продукти. Ми поєднуємо креативність, відповідальність і сучасні технології, щоб перетворювати ідеї на реальні результати.</p>
+          <a class="btn btn-primary btn-lg mt-2" href="#values">Дізнатися більше <i class="bi bi-arrow-right ms-2"></i></a>
+        </div>
+        <div class="col-lg-6">
+          <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1200&q=85"
+               class="img-fluid rounded-4 shadow" alt="Команда працює разом за столом">
+          <p class="figure-caption text-end mt-2">Співпраця — основа нашої роботи</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="values" class="bg-white py-5 border-top border-bottom">
+      <div class="container">
+        <div class="text-center mx-auto mb-5" style="max-width: 700px;">
+          <h2 class="display-6 fw-bold">Наші цінності</h2>
+          <p class="text-secondary mb-0">Принципи, які допомагають нам рухатися вперед і створювати якісний результат.</p>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="h-100 p-4 rounded-4 bg-body-tertiary">
+              <div class="d-inline-flex align-items-center justify-content-center rounded-3 bg-primary text-white p-3 mb-3"><i class="bi bi-lightbulb fs-3"></i></div>
+              <h3 class="h4 fw-bold">Інновації</h3>
+              <p class="text-secondary mb-0">Шукаємо нові підходи та використовуємо сучасні інструменти для розв’язання завдань.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 p-4 rounded-4 bg-body-tertiary">
+              <div class="d-inline-flex align-items-center justify-content-center rounded-3 bg-success text-white p-3 mb-3"><i class="bi bi-people fs-3"></i></div>
+              <h3 class="h4 fw-bold">Командність</h3>
+              <p class="text-secondary mb-0">Поважаємо різні погляди, підтримуємо одне одного та досягаємо цілей разом.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="h-100 p-4 rounded-4 bg-body-tertiary">
+              <div class="d-inline-flex align-items-center justify-content-center rounded-3 bg-warning text-dark p-3 mb-3"><i class="bi bi-award fs-3"></i></div>
+              <h3 class="h4 fw-bold">Якість</h3>
+              <p class="text-secondary mb-0">Уважно ставимося до деталей і прагнемо, щоб кожен результат був корисним.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container my-5">
+      <div class="row text-center g-4">
+        <div class="col-6 col-lg-3"><div class="p-3"><div class="display-5 fw-bold text-primary">5+</div><div class="text-secondary">років досвіду</div></div></div>
+        <div class="col-6 col-lg-3"><div class="p-3"><div class="display-5 fw-bold text-primary">30+</div><div class="text-secondary">реалізованих ідей</div></div></div>
+        <div class="col-6 col-lg-3"><div class="p-3"><div class="display-5 fw-bold text-primary">12</div><div class="text-secondary">фахівців команди</div></div></div>
+        <div class="col-6 col-lg-3"><div class="p-3"><div class="display-5 fw-bold text-primary">100%</div><div class="text-secondary">відданості справі</div></div></div>
+      </div>
+    </section>
+
+    <section id="contact" class="container mb-5">
+      <div class="bg-primary text-white rounded-4 p-4 p-md-5 text-center">
+        <h2 class="fw-bold">Маєте цікаву ідею?</h2>
+        <p class="mb-4">Будемо раді обговорити її та знайти найкраще рішення.</p>
+        <a class="btn btn-light btn-lg" href="mailto:hello@example.com"><i class="bi bi-envelope me-2"></i>Зв’язатися з нами</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-dark text-white py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <span class="fw-semibold">About Us</span>
+      <small class="text-white-50">Навчальний проєкт з використанням Bootstrap 5</small>
+      <small class="text-white-50">© 2026</small>
+    </div>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
